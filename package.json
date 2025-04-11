@@ -1,0 +1,16 @@
+{
+    "name": "keep",
+    "version": "0.1.0",
+    "authors": [ "Sirius" ],
+    "description": "Lazy storage.",
+    "license": "AGPL-3.0-or-later",
+    "keywords": [ "core", "keep", "storage" ],
+
+    "entry": "entry.js",
+    "dependencies": {
+        "core": "0.1.0"
+    },
+
+    "repository": null,
+    "homepage": null
+}
