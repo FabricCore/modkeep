@@ -8,7 +8,8 @@
 
     "entry": "entry.js",
     "dependencies": {
-        "core": "0.1.0"
+        "core": "0.1.0",
+        "yarn": "0.1.0"
     },
 
     "repository": null,
