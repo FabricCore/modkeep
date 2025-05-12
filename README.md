@@ -8,19 +8,28 @@ Lazy write-on-exit permanent JSON storage.
 
 Pully automatically installs **keep** if not present.
 
+
+#### Require as Dependency
+
+```json
+{
+  "dependencies": {
+    "keep": "0.1.0"
+  }
+}
+```
+
 #### Manual Install
 
-1. [Download **toggle**](https://github.com/FabricCore/modtoggle/archive/refs/heads/master.zip).
-2. Unzip file content to _.minecraft/config/jscore/modules/toggle/_
+1. [Download **keep**](https://github.com/FabricCore/modtoggle/archive/refs/heads/master.zip).
+2. Unzip file content to _.minecraft/config/jscore/modules/keep/_
 
 The folder should look like this
 
 ```
 .minecraft/config/jscore/
 └── modules/
-    └── toggle/
-        ├── lib/
-        ├── commands/
+    └── keep/
         └── package.json
 ```
 
