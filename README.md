@@ -47,6 +47,8 @@ Delete an entry.
 
 List stored entries.
 
+> **_/keep_** aliases to **_/keep list_**
+
 #### /keep set &lt;entry&gt; &lt;value&gt;
 
 Set an entry to a JSON value, **value** must be a valid JSON object string.
@@ -123,7 +125,7 @@ List all entries. **(Warning, heavy operation)**
 
 #### modkeep.load(entry: String, otherwise: String)
 
-Load a module from file to cache, overwriting the value in cache. **(Warning, not recommended, use *modkeep.get* instead)**
+Load a module from file to cache, overwriting the value in cache. **(Warning, not recommended, use _modkeep.get_ instead)**
 
 #### mopkeep.save(entry: String)
 

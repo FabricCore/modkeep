@@ -1,6 +1,7 @@
 Command.register({
     package: "modules/keep/commands",
     name: "keep",
+    execute: "listOne.js",
 
     args: {
         entry: {
