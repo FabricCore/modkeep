@@ -3,7 +3,7 @@ function main(ctx) {
     let update = StringArgumentType.getString(ctx, "update");
 
     Core.eval(
-        `modkeep.get("${entry}", {}, (obj) => {${update}; return obj;});`,
+        `modkeep.get("${entry}", {}, (entry) => {${update}; return obj;});`,
     );
     console.log("\u00A7aValue updated");
 }

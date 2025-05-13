@@ -64,7 +64,7 @@ Set an entry to a JSON value, **value** must be a valid JSON object string.
 
 #### /keep update &lt;entry&gt; &lt;updater&gt;
 
-Update an existing entry, updater is the JavaScript code to modify the existing entry - **_obj_**.
+Update an existing entry, updater is the JavaScript code to modify the existing entry - **_entry_**.
 
 ```hs
 -- Before:
@@ -73,7 +73,7 @@ Update an existing entry, updater is the JavaScript code to modify the existing 
 --   "language": Rust
 -- }
 
-/keep update "user/sirius" obj.language = "js"; obj.timezone = "GMT";
+/keep update "user/sirius" entry.language = "js"; entry.timezone = "GMT";
 ```
 
 ## Developer Guide
